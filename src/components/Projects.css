@@ -1,0 +1,51 @@
+/* Projects Section Styling */
+.projects-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .projects-container h2 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .projects-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .projects-container li {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 0;
+    transition: 0.3s;
+  }
+  
+  .projects-container li:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .projects-container strong {
+    display: block;
+    font-size: 1.4em;
+    margin-bottom: 5px;
+    color: #007bff; /* Highlight project title */
+  }
+  
+  .projects-container a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .projects-container a:hover {
+    text-decoration: underline;
+  }
+  
